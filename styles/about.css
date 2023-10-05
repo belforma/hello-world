@@ -1,0 +1,17 @@
+body {
+    background-image:url('../images/tumblr_inline_mlky6mkvni1r53miq.png')
+}
+
+p {
+    font-family:georgia;
+    color:#5b5b5b;
+    background-color:#eee;
+    #text-align:center;
+}
+
+h1 {
+    color:#f8766d;
+    font-family:georgia;
+    background-color:#eee;
+    text-align:center;
+}
