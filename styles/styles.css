@@ -139,6 +139,7 @@ body.ffxiv-logo {
     content:"";
     background-image:url('../images/jobs.png');
     background-size:cover;
+    background-attachment:fixed;
     position:absolute;
     top:0;
     right:0;
@@ -149,7 +150,7 @@ body.ffxiv-logo {
 
 .content-page {
     position:relative;
-    height:150vh;
+    height:300vh;
     width:100%;
 }
 
@@ -157,6 +158,7 @@ body.ffxiv-logo {
     content:"";
     background-image:url('../images/crystarium.png');
     background-size:cover;
+    background-attachment:fixed;
     position:absolute;
     top:0;
     right:0;
@@ -175,6 +177,7 @@ body.ffxiv-logo {
     content:"";
     background-image:url('../images/community.jpg');
     background-size:cover;
+    background-attachment:fixed;
     position:absolute;
     top:0;
     right:0;
@@ -338,7 +341,11 @@ div.job-title {
     background-color:#346624;
 }
 
-#dps {
+#mdps {
+    background-color:#732828;
+}
+
+#rdps {
     background-color:#732828;
 }
 
