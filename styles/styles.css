@@ -1,5 +1,9 @@
-body {
+body.color {
     background-color:#eee;
+}
+
+body.repeat {
+    background-image:url('../images/tumblr_inline_mlky6mkvni1r53miq.png')
 }
 
 p {
@@ -7,9 +11,41 @@ p {
     font-size:13px;
 }
 
+p.about {
+    font-family:georgia;
+    color:#5b5b5b;
+    background-color:#eee;
+    text-align:center;
+}
+
+p.ffxiv {
+    font-family:cambria;
+    font-size:16px;
+    color:#eee;
+    text-align:center;
+}
+
 h1 {
 	font-family:georgia;
     color:#5b5b5b;
+}
+
+h1.pink {
+    color:#f8766d;
+    font-family:georgia;
+    background-color:#eee;
+    text-align:center;
+}
+
+h1.ffxiv {
+    font-family:cambria;
+    font-size:20px;
+    color:#fff;
+    text-shadow:#FC0 1px 0 10px;
+    font-weight:bolder;
+    text-align:center;
+    font-variant:small-caps;
+    text-decoration:underline;
 }
 
 h5 {
@@ -26,6 +62,13 @@ h6 {
 ul {
     font-family:verdana;
     font-size:11px;
+}
+
+ul.ffxiv {
+    font-family:cambria;
+    font-size:14px;
+    color:#eee;
+    text-align:left;
 }
 
 .centered {
@@ -76,4 +119,331 @@ th {
 
 .header {
     font-weight:bold;
+}
+
+body.ffxiv-logo {
+    background-image:url('../images/ffxiv%20logo.jpg');
+    background-color:#fff;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+
+.job-page {
+    position:relative;
+    height:100vh;
+    width:100%;
+}
+
+.job-page::before {
+    content:"";
+    background-image:url('../images/jobs.png');
+    background-size:cover;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0.6;
+}
+
+.content-page {
+    position:relative;
+    height:150vh;
+    width:100%;
+}
+
+.content-page::before {
+    content:"";
+    background-image:url('../images/crystarium.png');
+    background-size:cover;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0.6; 
+}
+
+.community-page {
+    position:relative;
+    height:100vh;
+    width:100%;
+}
+
+.community-page::before {
+    content:"";
+    background-image:url('../images/community.jpg');
+    background-size:cover;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0.6;     
+}
+
+div.ffxiv-header {
+    font-family:cambria;
+    font-size:24px;
+    color:#fff;
+    text-shadow:#FC0 1px 0 10px;
+    font-weight:bolder;
+    text-align:center;
+    background-image:linear-gradient(to bottom right,#13284e, #000);
+    font-variant:small-caps;
+    padding:10px;
+    /* margin:10% 25%; */
+    width:500px;
+    border-style:double;
+    border-color:#fc0;
+    position:relative;
+    top:100px;
+    left:25%;
+}
+
+a.ffxiv-header-link {
+    font-family:cambria;
+    font-size:24px;
+    color:#fff;
+    text-shadow: #FC0 1px 0 10px;
+    font-weight:bolder;
+    text-align:center;
+    font-variant:small-caps;
+    background:none;
+    text-decoration:underline;
+}
+
+div.ffxiv-holder {
+    background-image:linear-gradient(to bottom right,#13284e, #000);
+    text-align:center;
+    padding:10px;
+    margin:0 25%;
+    border-style:double;
+    border-color:#fc0;
+    width:500px;
+    height:300px;
+    position:relative;
+    top:120px;
+}
+
+div.ffxiv-box1 {
+    width:27%;
+    height:280px;
+    position:relative;
+    float:left;
+    margin:5px 10px;
+    padding:5px;
+    border:2px solid #eee;
+    z-index:5;
+}
+
+div.ffxiv-box2 {
+    width:27%;
+    height:280px;
+    position:relative;
+    float:left;
+    margin:5px;
+    padding:5px;
+    border:2px solid #eee;
+    z-index:5;
+}
+
+div.ffxiv-box3 {
+    width:27%;
+    height:280px;
+    position:relative;
+    float:left;
+    margin:5px 5px 5px 2%;
+    padding:5px;
+    border:2px solid #eee;
+    z-index:5;
+}
+
+div.tank {
+    background-image:linear-gradient(to bottom right,#13284e, #000);
+    text-align:center;
+    padding:10px;
+    margin:10px 10px 10px 20%;
+    border-style:double;
+    border-color:#fc0;
+    width:300px;
+    height:200px;
+    position:relative;
+    top:120px;
+    float:left;
+}
+
+div.heal {
+    background-image:linear-gradient(to bottom right,#13284e, #000);
+    text-align:center;
+    margin:10px;
+    padding:10px;
+    border-style:double;
+    border-color:#fc0;
+    width:300px;
+    height:200px;
+    position:relative;
+    top:120px;
+    float:left;
+}
+
+div.mdps {
+    background-image:linear-gradient(to bottom right,#13284e, #000);
+    text-align:center;
+    padding:10px;
+    margin:10px 10px 10px 20%;
+    border-style:double;
+    border-color:#fc0;
+    width:300px;
+    height:200px;
+    position:relative;
+    top:120px;
+    float:left;
+}
+
+div.rdps {
+    background-image:linear-gradient(to bottom right,#13284e, #000);
+    text-align:center;
+    margin:10px;
+    padding:10px;
+    border-style:double;
+    border-color:#fc0;
+    width:300px;
+    height:200px;
+    position:relative;
+    top:120px;
+    float:left;
+}
+
+div.job-title {
+    float:left;
+    position:relative;
+    height:30px;
+    width:100%;
+    text-align:center;
+    font-family:cambria;
+    font-variant:small-caps;
+    font-size:20px;
+    color:#fff;
+    text-shadow:#FC0 1px 0 10px;
+    border:1px solid #fc0;
+}
+
+#tank {
+    background-color:#2D3A80;
+}
+
+#heal {
+    background-color:#346624;
+}
+
+#dps {
+    background-color:#732828;
+}
+
+div.job-icon {
+    float:left;
+    position:relative;
+    height:80px;
+    margin:10px;
+    padding:10px 10px 10px 2px;
+    border-right:#F0CF93 8px solid;
+}
+
+div.job-desc {
+    float:left;
+    position:relative;
+    height:120px;
+    margin:10px;
+    padding:2px;
+}
+
+div.content-holder {
+    background-image:linear-gradient(to bottom right,#13284e, #000);
+    text-align:center;
+    padding:10px;
+    margin:10px 10px 10px 25%;
+    border-style:double;
+    border-color:#fc0;
+    width:500px;
+    height:200px;
+    position:relative;
+    top:120px;
+    float:left;    
+}
+
+div.content-image1 {
+    float:left;
+    position:relative;
+    height:180px;
+    margin:10px;
+    border:1px solid #fff;
+}
+
+div.content-image2 {
+    float:right;
+    position:relative;
+    height:180px;
+    margin:10px;
+    border:1px solid #fff;
+}
+
+div.ffxiv-nav {
+    position:fixed;
+    top:15%;
+    left:2%;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:left;
+}
+
+div.ffxiv-img {
+    border-style:solid;
+    border-color:#fc0;
+    width:130px;
+    height:200px;
+    position:relative;
+    float:left;
+    top:120px;
+    left:25%;
+    margin:10px 20px;
+}
+
+a.ffxiv-nav {
+    font-family:arial;
+    font-size:20px;
+    color:#eee;
+    background-color:#6774BA;
+    border-radius:5px;
+    font-variant:small-caps;
+    opacity:0.75;
+    margin:2px;
+    padding:auto;
+    line-height:30px;
+}
+
+a.ffxiv-nav:hover {
+    opacity:1.0;
+}
+
+img.icon {
+    width:25px;
+    display:inline;
+}
+
+img.thumb {
+    width:200px;
+    height:100%;
+}
+
+img.community {
+    width:130px;
+    height:100%;
+}
+
+.clear {
+    clear:both;
 }
