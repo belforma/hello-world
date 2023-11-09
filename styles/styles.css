@@ -1,9 +1,26 @@
+body, html {
+    height:100vh;
+}
+
 body.color {
     background-color:#eee;
 }
 
 body.repeat {
     background-image:url('../images/tumblr_inline_mlky6mkvni1r53miq.png')
+}
+
+body.survey {
+    background-color:#ffd9e4;
+}
+
+@font-face {
+    font-family: 'nature_beauty_personal_useRg';
+    src: url('../fonts/naturebeautypersonaluse-9y2dk-webfont.woff2') format('woff2'),
+         url('../fonts/naturebeautypersonaluse-9y2dk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 p {
@@ -23,6 +40,10 @@ p.ffxiv {
     font-size:16px;
     color:#eee;
     text-align:center;
+}
+
+p.survey {
+    font-family:franklin gothic;
 }
 
 h1 {
@@ -46,6 +67,11 @@ h1.ffxiv {
     text-align:center;
     font-variant:small-caps;
     text-decoration:underline;
+}
+
+h1.survey {
+    font-family:nature_beauty_personal_useRg;
+    color:#ff4f85;
 }
 
 h5 {
@@ -419,6 +445,14 @@ div.ffxiv-img {
     margin:10px 20px;
 }
 
+div.survey {
+    background-color:#ffe8f0;
+    border:1px dotted #f1004e;
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+}
+
 a.ffxiv-nav {
     font-family:arial;
     font-size:20px;
@@ -436,6 +470,13 @@ a.ffxiv-nav:hover {
     opacity:1.0;
 }
 
+a.survey {
+    font-family:nature_beauty_personal_useRg;
+    font-size:20px;
+    color:#ff4f85;
+    background:none;
+}
+
 img.icon {
     width:25px;
     display:inline;
@@ -449,6 +490,16 @@ img.thumb {
 img.community {
     width:130px;
     height:100%;
+}
+
+legend {
+    font-family:nature_beauty_personal_useRg;
+    color:#ff4f85;
+}
+
+label {
+    font-size:16px;
+    font-family:franklin gothic;
 }
 
 .clear {
