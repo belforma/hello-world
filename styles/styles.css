@@ -14,10 +14,125 @@ body.survey {
     background-color:#ffd9e4;
 }
 
+body.app {
+    color:#333;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size:14px;
+    font-weight:300;
+}
+
 @font-face {
     font-family: 'nature_beauty_personal_useRg';
     src: url('../fonts/naturebeautypersonaluse-9y2dk-webfont.woff2') format('woff2'),
          url('../fonts/naturebeautypersonaluse-9y2dk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('../fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('../fonts/roboto-blackitalic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('../fonts/roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('../fonts/roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('../fonts/roboto-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('../fonts/roboto-thinitalic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -74,6 +189,45 @@ h1.survey {
     color:#ff4f85;
 }
 
+h1.app {
+    font-family:inherit;
+    font-size:56px;
+    font-weight:bold;
+    color:#000;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+
+h2.app {
+    font-family:inherit;
+    font-size:22px;
+    color:#000;
+    font-weight:bold;
+}
+
+h3.app {
+    font-family:inherit;
+    font-size:16px;
+    font-weight:bold;
+    color:#01875F;
+    margin-top:0px;
+}
+
+h4.app {
+    font-family:inherit;
+    font-size:14px;
+    color:#000;
+    font-weight:bold;
+    text-align:center;
+}
+
+h5.app {
+    font-family:inherit;
+    font-size:12px;
+    color:inherit;
+    font-style:normal;
+}
+
 h5 {
     font-family:georgia;
     color:#5b5b5b;
@@ -95,6 +249,11 @@ ul.ffxiv {
     font-size:14px;
     color:#eee;
     text-align:left;
+}
+
+ul.app {
+    font-size:13px;
+    color:inherit;
 }
 
 .centered {
@@ -153,7 +312,6 @@ body.ffxiv-logo {
     background-repeat:no-repeat;
     background-size:contain;
 }
-
 
 .job-page {
     position:relative;
@@ -453,6 +611,185 @@ div.survey {
     margin:10px;
 }
 
+div.app-nav {
+    background:#fff;
+    position:fixed;
+    top:0%;
+    left:0%;
+    height:64px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    z-index:5;
+}
+
+div.app-logo {
+    display:flex;
+    font-family:inherit;
+    font-weight:bold;
+    font-size:16px;
+    line-height:3;
+    padding:5px;
+}
+
+div.app-search {
+    position:fixed;
+    right:5%;
+    display:flex;
+    justify-content:flex-end;
+}
+
+div.app-main {
+    position:relative;
+    height:100%;
+    width:100%;
+    margin-top:64px;
+    display:flex;
+    justify-content:center;
+    align-content:flex-start;
+    padding-bottom:40px;
+}
+
+div.arknights-logo {
+    position:absolute;
+    top:20%;
+    left:70%;
+    height:240px;
+    width:240px;
+}
+
+div.app-info {
+    background:#fff;
+    position:relative;
+    margin:auto;
+    width:100%;
+}
+
+div.search-icons {
+    border-color:none;
+    border-radius:50%;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    height:48px;
+    width:48px;
+    background-color:#eee;
+    display:flex;
+    font-size:24px;
+}
+
+div.user-circle {
+    height:32px;
+    width:32px;
+    border-color:none;
+    border-radius:50%;
+    color:#fff;
+    background-color:#01579B;
+}
+
+div.app-border {
+    border-right:#eee solid 1px;
+    height:35px;
+    width:0px;
+}
+
+div.app-install-bar {
+    margin-top:30px;
+}
+
+div.safety {
+    width:100%;
+    border:1px #eee solid;
+    border-radius:25px;
+    padding:15px;
+    margin-top:15px;
+}
+
+div.app-pc {
+    padding:20px;
+    background-color:#282828;
+    border-radius:25px;
+    color:#aaa;
+    font-size:15px;
+    line-height:1.7;
+}
+
+div.app-list {
+    line-height:2.5;
+}
+
+a.app-logo {
+    color:#5B5B66;
+    font-family:inherit;
+    font-size:20px;
+    font-weight:inherit;
+    background-color:transparent;
+    border:none;
+}
+
+a.app-logo:hover {
+    color:#5B5B66;
+    text-decoration:none;
+}
+
+a.app-nav {
+    color:#5B5B66;
+    font-family:inherit;
+    font-weight:bold;
+    margin-right:10px;
+    margin-left:10px;
+    background-color:transparent;
+    border:none;
+}
+
+a.app-nav:visited {
+    color:inherit;
+    font-family:inherit;
+    font-size:inherit;
+    font-weight:inherit;
+    background-color:none;
+    border:none;
+}
+
+a.app-nav:hover {
+    color:#15141A;
+    text-decoration:none;
+}
+
+a.active {
+    color:#01875F;
+    margin-top:auto;
+    padding-bottom:20px;
+    border-bottom:3px #01875F solid;
+}
+
+a.active:hover {
+    color:#01875F;
+}
+
+a.app {
+    color:inherit;
+    font-family:inherit;
+    font-size:inherit;
+    padding:0;
+    margin:0;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+a.app-pc {
+    color:#28FEAF;
+    font-family:inherit;
+    font-size:16px;
+    background:none;
+    margin:auto;
+    padding:0;
+}
+
+a.app-pc:hover {
+    text-decoration:none;
+}
+
 a.ffxiv-nav {
     font-family:arial;
     font-size:20px;
@@ -477,6 +814,10 @@ a.survey {
     background:none;
 }
 
+img.inline {
+    display:inline;
+}
+
 img.icon {
     width:25px;
     display:inline;
@@ -492,6 +833,105 @@ img.community {
     height:100%;
 }
 
+img.gplay {
+    height:35px;
+    width:35px;
+    margin:auto 7px auto 5px;
+}
+
+img.share {
+    height:33px;
+    width:33px;
+    display:inline;
+    margin-right:2px;
+}
+
+img.round {
+    border-radius:50px;
+    filter:drop-shadow(0px 20px 14px)
+}
+
+img.app-thumb {
+    height:20px;
+    width:20px;
+    display:inline;
+    margin-left:10px;
+    margin-right:15px;
+}
+
+img.app-side {
+    margin-right:20px;
+    display:inline;
+}
+
+button.gplay {
+    border:0px;
+    border-color:none;
+    border-radius:50%;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    height:48px;
+    width:48px;
+    background-color:#fff;
+    display:flex;
+    font-size:24px;
+}
+
+button.gplay:hover {
+    background-color:#eee;
+}
+
+button.w-install {
+    background-color:#01875F;
+    color:#fff;
+    border:0px;
+    border-color:none;
+    border-radius:10px;
+    text-align:center;
+    width:200px;
+    height:48px;
+    margin-right:20px;
+    font-size:16px;
+}
+
+button.w-install:hover {
+    background-color:#095943;
+}
+
+button.o-install {
+    background-color:#fff;
+    color:#01875F;
+    border:none;
+    border:1px #eee solid;
+    border-radius:10px;
+    text-align:center;
+    width:200px;
+    height:48px;
+    font-size:16px;
+    font-weight:bold;
+    margin-right:20px;
+}
+
+button.o-install:hover {
+    background-color:#F6F9FE;
+}
+
+button.share {
+    width:86px;
+    height:48px;
+    background-color:#fff;
+    border:none;
+    border-radius:5px;
+    font-size:13px;
+    color:#01875F;
+    font-weight:bold;
+}
+
+button.share:hover {
+    background-color:#F6F9FE;
+}
+
 legend {
     font-family:nature_beauty_personal_useRg;
     color:#ff4f85;
@@ -502,6 +942,77 @@ label {
     font-family:franklin gothic;
 }
 
+text-center {
+    text-align:center;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.white {
+    color:#fff;
+}
+
 .clear {
     clear:both;
+}
+
+.remove-all-margin{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.carousel {
+    margin:auto;
+    height:315px;
+    width:auto;
+}
+
+.carousel-inner {
+    height:315px;
+}
+
+.carousel-control-prev {
+    margin:auto;
+    height:50px;
+    width:50px;
+    border-radius:50px;
+    background-color:#fff;
+    opacity:1;
+    filter:drop-shadow(grey 0px 0px 2px);
+}
+
+.carousel-control-prev:hover {
+    background-color:#F7F8F8;
+    opacity:1;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next {
+    margin:auto;
+    height:50px;
+    width:50px;
+    border-radius:50px;
+    background-color:#fff;
+    opacity:1;
+    filter:drop-shadow(grey 0px 0px 2px);
+}
+
+.carousel-control-next:hover {
+    background-color:#F7F8F8;
+    opacity:1;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.scale {
+    max-width:100%;
+    height:315px;
+    object-fit: scale-down;
 }
