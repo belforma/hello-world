@@ -785,6 +785,25 @@ a.app-pc:hover {
     text-decoration:none;
 }
 
+a.gplay {
+    border:0px;
+    border-color:none;
+    border-radius:50%;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    height:48px;
+    width:48px;
+    background-color:#fff;
+    display:flex;
+    font-size:24px;
+}
+
+a.gplay:hover {
+    background-color:#eee;
+    text-decoration:none;
+}
+
 a.ffxiv-nav {
     font-family:arial;
     font-size:20px;
