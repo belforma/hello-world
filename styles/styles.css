@@ -678,15 +678,6 @@ div.search-icons {
     font-size:24px;
 }
 
-div.user-circle {
-    height:32px;
-    width:32px;
-    border-color:none;
-    border-radius:50%;
-    color:#fff;
-    background-color:#01579B;
-}
-
 div.app-border {
     border-right:#eee solid 1px;
     height:35px;
@@ -764,6 +755,10 @@ a.active {
 }
 
 a.active:hover {
+    color:#01875F;
+}
+
+a.active:visited {
     color:#01875F;
 }
 
@@ -1015,4 +1010,18 @@ text-center {
     max-width:100%;
     height:315px;
     object-fit: scale-down;
+}
+
+.user-circle {
+    height:32px;
+    width:32px;
+    border-color:none;
+    border-radius:50%;
+    color:#fff;
+    background-color:#01579B;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    display:flex;
+    font-size:24px;
 }
